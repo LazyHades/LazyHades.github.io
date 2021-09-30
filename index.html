@@ -9,6 +9,20 @@
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
+  <script>
+    ((p,u,s,h)=>{
+         p._push={"apiKey":'4815749451026083'};
+         p._pushfcm = {
+           location:'qa'
+         };
+          let l,y;
+          l = u.getElementsByTagName('head')[0];
+          y = u.createElement('script');
+          y.async = 1;
+          y.id="pushninja_script"
+          y.src = s+h;
+          l.appendChild(y);})(window,document,'https://infinity-public-js.500apps.com/push/','push.min.js');
+  </script>
 </head>
 <body>
 
@@ -275,20 +289,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
 <script src="assets/js/functions-min.js"></script>
-  <script>
-        (function(n, j, c, h, a, t) {
-      d= o.createElement('div');
-      d.id= 'app';
-      t = j.getElementsByTagName('head')[0];
-      a = j.createElement('script');
-      a.async = 1;
-      p.id= 'ninjachat';
-      a.src = c + h;
-      a.onload = () => {
-          n._NC.init('5609179164315541','43','qa')
-    };
-    o.lastChild.append(d);
-    t.appendChild(a);})(window, document, 'https://widgets.500apps.com/qa/ninjachat/', 'ninjachat.min.js');
-    </script>
 </body>
 </html>
