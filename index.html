@@ -9,18 +9,6 @@
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
-  <script>
-	 (function(c, o, n, v, r, p) {
-      p = o.getElementsByTagName('head')[0];
-      r = o.createElement('script');
-      r.async = 1;
-      r.src = n + v;
-      r.onload = () => {
-          c._we.init('apiKey','4690948973794851')
-    };
-    p.appendChild(r);
-    })(window, document, 'http://127.0.0.1:8887/', 'client.js');
-</script>
 </head>
 <body>
 
@@ -287,5 +275,23 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
 <script src="assets/js/functions-min.js"></script>
+	<script>
+      setTimeout(function(){ 
+        (function(n, j, c, h, a, t) {
+      d= j.createElement('div');
+      d.id= 'app';
+      t = j.getElementsByTagName('head')[0];
+      a = j.createElement('script');
+      a.async = 1;
+      a.id= 'ninjachat';
+      a.src = c + h;
+      a.onload = function(){
+          n._NC.init('5734874850671881','45','qa')
+    };
+    j.lastChild.append(d);
+    t.appendChild(a);
+    })(window, document, 'https://widgets.500apps.com/qa/ninjachat/', 'ninjachat.js');
+    },2000);
+    </script>
 </body>
 </html>
